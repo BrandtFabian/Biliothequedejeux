@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfBibliothèquedejeux.BibliothèqueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBibliothèquedejeux"
+        mc:Ignorable="d"
+        Title="BibliothèqueWindow" Height="450" Width="800">
+    <Grid>
+		<DockPanel>
+			<Menu DockPanel.Dock="Top">
+				<MenuItem Header="_File">
+					<MenuItem Header="_Open" Click="MenuItemOpen_Click" />
+					<MenuItem Header="_Save" Click="MenuItemSave_Click" />
+					<MenuItem Header="_Add Game" Click="MenuItemAddGame_Click" />
+					<Separator />
+					<MenuItem Header="_Exit" Click="MenuItemExit_Click" />
+				</MenuItem>
+				<MenuItem Header="_Tool">
+					<MenuItem Header="_Option" Click="menuClick_Option"/>
+					<MenuItem Header="_About" Click="menuClick_About"/>
+				</MenuItem>
+			</Menu>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="200"/>
+				</Grid.ColumnDefinitions>
+				<Label Content="Liste de jeux" Height="25" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+				<RadioButton Content="RadioButton" Height="25" VerticalAlignment="Top" Margin="0,30,0,0"/>
+				<RadioButton Content="RadioButton" Height="25" VerticalAlignment="Top" Margin="0,60,0,0"/>
+				
+				<TreeView Margin="0,100,0,0">
+					<TreeViewItem Header="Level 1" IsExpanded="True">
+						<TreeViewItem Header="Level 2.1" />
+						<TreeViewItem Header="Level 2.2" IsExpanded="True">
+							<TreeViewItem Header="Level 3.1" />
+							<TreeViewItem Header="Level 3.2" />
+						</TreeViewItem>
+						<TreeViewItem Header="Level 2.3" />
+					</TreeViewItem>
+				</TreeView>
+
+				<UserControl x:Name="UserTreeView"></UserControl>
+				
+			</Grid>
+			
+		</DockPanel>
+	</Grid>
+</Window>

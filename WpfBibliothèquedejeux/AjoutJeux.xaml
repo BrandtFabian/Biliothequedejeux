@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfBibliothèquedejeux.AjoutJeux"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBibliothèquedejeux"
+        mc:Ignorable="d"
+        Title="AjoutJeux" Height="450" Width="800">
+	<Grid>
+		<Label Content="Nom du jeux : &#xD;&#xA;" HorizontalAlignment="Left" Margin="10,12.4,0,0" VerticalAlignment="Top" Height="27.72" Width="88.227"/>
+		<TextBox x:Name="TBName" HorizontalAlignment="Left" Height="23" Margin="98.227,17.12,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+		<Label Content="Tag :" HorizontalAlignment="Left" Margin="59.227,61.33,0,0" VerticalAlignment="Top"/>
+		<Button Content="OK" HorizontalAlignment="Left" Margin="49.47,280.9,0,0" VerticalAlignment="Top" Width="75" Click="ClickOK"/>
+		<Button Content="CANCEL" HorizontalAlignment="Left" Margin="181,280.9,0,0" VerticalAlignment="Top" Width="75" Click="ClickCancel"/>
+		<Label Content="DLC" HorizontalAlignment="Left" Margin="299.22,12.4,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="TBDLC" HorizontalAlignment="Left" Height="23" Margin="335.3,16.4,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+		<ListBox x:Name="LBTag" HorizontalAlignment="Left" Height="211.32" Margin="98.227,49.12,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Multiple"/>
+		<ListBox x:Name="LBDLC" HorizontalAlignment="Left" Height="119.6" Margin="335.3,55.3,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Extended"/>
+		<Label Content="Nom des DLC : " HorizontalAlignment="Left" Margin="246.98,69.34,0,0" VerticalAlignment="Top"/>
+		<Button Content="Ajouter" HorizontalAlignment="Left" Margin="482,17.12,0,0" VerticalAlignment="Top" Width="75" Height="21.24" Click="ButtonDLCAjouter"/>
+	</Grid>
+</Window>

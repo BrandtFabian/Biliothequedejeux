@@ -1,0 +1,7 @@
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\obj\Debug\Library.csprojAssemblyReference.cache
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\bin\Debug\Library.exe.config
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\bin\Debug\Library.exe
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\bin\Debug\Library.pdb
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\obj\Debug\Library.exe
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Library\obj\Debug\Library.pdb

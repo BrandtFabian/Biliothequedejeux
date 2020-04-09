@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfBibliothèquedejeux.Option"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBibliothèquedejeux"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Option" Height="450" Width="800">
+	<Grid x:Name="GridCurrent" Background="Black">
+		<DockPanel>
+			<Label Content="Option" HorizontalAlignment="Center" Foreground="Red" FontSize="48" FontWeight="Bold"></Label>
+		</DockPanel>
+		<Grid Margin="0,85,0,0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="350"/>
+				<ColumnDefinition Width="350"/>
+			</Grid.ColumnDefinitions>
+			<Label Content="Background" Foreground="Red" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+			<xctk:ColorPicker x:Name="CouleurFond" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Height="20" Width="150" SelectedColor="{Binding Path=ColorFond}"/>
+			<Label Content="Text" Foreground="Red" VerticalAlignment="Top" Grid.Column="0" Margin="0,80,0,0"  HorizontalAlignment="Center"/>
+			<xctk:ColorPicker x:Name="CouleurTexte" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Height="20" Width="150" SelectedColor="{Binding Path=ColorText}"/>
+			<Label Content="Path" Foreground="Red" VerticalAlignment="Top" Grid.Column="0" Margin="0,150,0,0" HorizontalAlignment="Center"/>
+			<TextBox Grid.Column="0" Background="White" HorizontalAlignment="Center" Margin="0,180,0,0" TextWrapping="Wrap" Text="{Binding Path=Chemindacces}" VerticalAlignment="Top" Width="150"/>
+		</Grid>
+		<Button x:Name="APPLY" Content="APPLY" HorizontalAlignment="Left" Margin="35,350,0,0" VerticalAlignment="Top" Width="75" Click="APPLY_Click"/>
+		<Button x:Name="OK" Content="OK" HorizontalAlignment="Left" Margin="135,350,0,0" VerticalAlignment="Top" Width="75" Click="OK_Click"/>
+		<Button x:Name="CANCEL" Content="CANCEL" HorizontalAlignment="Left" Margin="235,350,0,0" VerticalAlignment="Top" Width="75" Click="CANCEL_Click"/>
+	</Grid>
+</Window>
+	

@@ -1,0 +1,11 @@
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\obj\Debug\Bibliothèquedejeux.csprojAssemblyReference.cache
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\obj\Debug\Bibliothèquedejeux.csproj.CoreCompileInputs.cache
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Bibliothèquedejeux.exe.config
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Bibliothèquedejeux.exe
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Bibliothèquedejeux.pdb
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Library.exe
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Library.pdb
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\bin\Debug\Library.exe.config
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\obj\Debug\Bibliothèquedejeux.csproj.CopyComplete
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\obj\Debug\Bibliothèquedejeux.exe
+D:\HEPL\C#\labo-phase-3-BrandtFabian\Bibliothèquedejeux\obj\Debug\Bibliothèquedejeux.pdb
